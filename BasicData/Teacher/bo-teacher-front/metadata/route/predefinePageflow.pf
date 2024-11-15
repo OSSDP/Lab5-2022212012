@@ -1,0 +1,77 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "7214725a-58db-e484-599b-52594682995b",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "ae7d4099-2f50-499b-b6c9-f9683eadc2ee",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "ae7d4099-2f50-499b-b6c9-f9683eadc2ee",
+    "project" : {
+      "name" : "bo-teacher-front"
+    },
+    "pages" : [ {
+      "id" : "beabba59-fbd2-4604-9b9c-fb9f863bc1c2",
+      "code" : "TeacherDetail",
+      "name" : "教师信息",
+      "fileName" : "TeacherDetail.frm",
+      "relativePath" : "StudentSystem/BasicData/Teacher/bo-teacher-front/metadata/components",
+      "formUri" : "beabba59-fbd2-4604-9b9c-fb9f863bc1c2",
+      "routeUri" : "TeacherDetail",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    }, {
+      "id" : "92f5c017-2c69-4ca7-ae57-3da70ef58cb5",
+      "code" : "TeacherList",
+      "name" : "教师列表",
+      "fileName" : "TeacherList.frm",
+      "relativePath" : "StudentSystem/BasicData/Teacher/bo-teacher-front/metadata/components",
+      "formUri" : "92f5c017-2c69-4ca7-ae57-3da70ef58cb5",
+      "routeUri" : "TeacherList",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "TeacherDetail",
+    "routes" : null,
+    "appCode" : "Teacher",
+    "appName" : "教师",
+    "publishes" : [ {
+      "id" : "37694836-513f-49c0-9999-1c948568786d",
+      "entry" : "243b6a53-baa0-49df-854a-d53e6058be79",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "2252523b-4f62-49a8-84dd-d2bdf2743b86",
+      "entry" : "173b2e1c-9515-4d5c-80ab-817e04c79557",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "736c857e-60d9-4f2b-8778-f504d4d31550",
+      "entry" : "beabba59-fbd2-4604-9b9c-fb9f863bc1c2",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "a79b2fbe-6d22-4adf-aa9c-1cd32a660172",
+      "entry" : "92f5c017-2c69-4ca7-ae57-3da70ef58cb5",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "StudentSystem/BasicData/Teacher/bo-teacher-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

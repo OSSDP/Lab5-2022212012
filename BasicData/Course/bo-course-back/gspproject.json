@@ -1,0 +1,15 @@
+{
+  "AppCode" : "StudentSystem",
+  "ServiceUnitCode" : "BasicData",
+  "BizobjectCode" : "Course",
+  "BizobjectID" : "8dfb9025-2ca3-bf39-a387-675ee2fa073f",
+  "ProjectNameSpace" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Back",
+  "SuDeploymentPath" : "apps/studentsystem/basicdata",
+  "MetadataProjectName" : "bo-Course-Back",
+  "MetadataPackageName" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Back",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "backend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}

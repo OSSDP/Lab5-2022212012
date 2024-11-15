@@ -1,0 +1,82 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "8dfb9025-2ca3-bf39-a387-675ee2fa073f",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "9f321795-30c5-4240-91b2-d84c1cbfcec3",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "9f321795-30c5-4240-91b2-d84c1cbfcec3",
+    "project" : {
+      "name" : "bo-course-front"
+    },
+    "pages" : [ {
+      "id" : "18abf927-ed16-4d3b-b59d-1429cec75d8a",
+      "code" : "CourseDetail",
+      "name" : "课程信息",
+      "fileName" : "CourseDetail.frm",
+      "relativePath" : "StudentSystem/BasicData/Course/bo-course-front/metadata/components",
+      "formUri" : "18abf927-ed16-4d3b-b59d-1429cec75d8a",
+      "routeUri" : "CourseDetail",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    }, {
+      "id" : "cafc7182-2598-4026-8670-619b7593ccc4",
+      "code" : "CourseList",
+      "name" : "课程列表",
+      "fileName" : "CourseList.frm",
+      "relativePath" : "StudentSystem/BasicData/Course/bo-course-front/metadata/components",
+      "formUri" : "cafc7182-2598-4026-8670-619b7593ccc4",
+      "routeUri" : "CourseList",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "CourseDetail",
+    "routes" : null,
+    "appCode" : "Course",
+    "appName" : "课程",
+    "publishes" : [ {
+      "id" : "a42ba2f8-1ee9-4cba-a533-4cc2a55aa037",
+      "entry" : "25c27f19-64c2-4eb9-938b-a3f6a44917c1",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "802966de-f31b-4f07-8615-67b720ca6cf6",
+      "entry" : "26ed52bf-4fc8-49cd-b18b-990e4e5f282a",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "bd2a12c9-2cd2-4477-b189-026b4c0867a5",
+      "entry" : "353973f9-719b-49fe-a88a-4fcc73ca9644",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "785fdb66-1f1d-4e6d-b98a-e78b58dda1c6",
+      "entry" : "18abf927-ed16-4d3b-b59d-1429cec75d8a",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "ee03986e-1456-404c-aae3-7a1edd863f1f",
+      "entry" : "cafc7182-2598-4026-8670-619b7593ccc4",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "StudentSystem/BasicData/Course/bo-course-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

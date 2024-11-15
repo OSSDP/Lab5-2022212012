@@ -1,0 +1,67 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Student.Student.Front",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "8cdaade6-4237-abbf-5006-00e3aff41bfb",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "54842f3b-1723-44a1-addf-07ccf00f73f0",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "54842f3b-1723-44a1-addf-07ccf00f73f0",
+    "project" : {
+      "name" : "bo-student-front"
+    },
+    "pages" : [ {
+      "id" : "94332519-f7e7-43d9-9b0b-d9dd8deeb7a1",
+      "code" : "StudentDetail",
+      "name" : "学生信息",
+      "fileName" : "StudentDetail.frm",
+      "relativePath" : "StudentSystem/BasicData/Student/bo-student-front/metadata/components",
+      "formUri" : null,
+      "routeUri" : "StudentDetail",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    }, {
+      "id" : "069a8867-9eda-4495-b0b7-d2be59aee4dc",
+      "code" : "StudentList",
+      "name" : "学生列表",
+      "fileName" : "StudentList.frm",
+      "relativePath" : "StudentSystem/BasicData/Student/bo-student-front/metadata/components",
+      "formUri" : "069a8867-9eda-4495-b0b7-d2be59aee4dc",
+      "routeUri" : "StudentList",
+      "routeParams" : null,
+      "forceDynamicForm" : false
+    } ],
+    "entry" : "StudentDetail",
+    "routes" : null,
+    "appCode" : "Student",
+    "appName" : "学生",
+    "publishes" : [ {
+      "id" : "7709a964-c3b3-412a-9784-503a54fd12bb",
+      "entry" : "94332519-f7e7-43d9-9b0b-d9dd8deeb7a1",
+      "type" : null,
+      "processCategory" : null
+    }, {
+      "id" : "0be7db43-c2b7-4d1e-9a14-c5f555e53dc7",
+      "entry" : "069a8867-9eda-4495-b0b7-d2be59aee4dc",
+      "type" : null,
+      "processCategory" : null
+    } ]
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "StudentSystem/BasicData/Student/bo-student-front/metadata/route",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

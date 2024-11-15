@@ -1,0 +1,30 @@
+{
+  "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Back",
+  "Name" : "bo-Teacher-Back",
+  "ProjectFileName" : "bo-Teacher-Back.mdproj",
+  "ProjectPath" : "StudentSystem/BasicData/Teacher/bo-teacher-back/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : [ {
+    "Name" : "Inspur.Gsp.Common.CommonUdt",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "generation"
+  } ],
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Back",
+  "ID" : "d4877046-9f40-46d6-9a83-6802cb2f2fb8"
+}

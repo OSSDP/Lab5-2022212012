@@ -1,0 +1,19 @@
+#Last modified on: Mon Nov 11 01:21:01 GMT+08:00 2024
+#Mon Nov 11 01:21:01 GMT+08:00 2024
+metadata/eapi/TeacherList_frm.eapi=1731259168549
+metadata/components/TeacherDetail_frm.vo.res=1731258925121
+metadata/components/TeacherDetail_frm.vo=1731258925128
+metadata/lookups/listTeacher.hlp=1731163688314
+metadata/components/TeacherDetail_frm.sm=1731258907367
+metadata/route/predefinePageflow.pf=1731259256036
+metadata/components/TeacherList.frm=1731259230653
+metadata/lookups/listTeacher_hlp.vo=1731163688256
+metadata/lookups/listTeacher.hlp.res=1731163688282
+metadata/eapi/TeacherDetail_frm.eapi=1731258907317
+metadata/components/TeacherList_frm.vo=1731259230621
+metadata/components/TeacherList.frm.res=1731259230638
+metadata/components/TeacherList_frm.vo.res=1731259230621
+metadata/components/TeacherDetail.frm=1731258921339
+metadata/lookups/listTeacher_hlp.vo.res=1731163688251
+metadata/components/TeacherList_frm.sm=1731259168596
+metadata/components/TeacherDetail.frm.res=1731258925128

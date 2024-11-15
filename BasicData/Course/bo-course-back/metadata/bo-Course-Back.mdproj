@@ -1,0 +1,30 @@
+{
+  "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Back",
+  "Name" : "bo-Course-Back",
+  "ProjectFileName" : "bo-Course-Back.mdproj",
+  "ProjectPath" : "StudentSystem/BasicData/Course/bo-course-back/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : [ {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : "Inspur.GS.StudentSystem.BasicData.Course.Course.Back",
+  "ID" : "8bcb5b02-735a-47f1-98d5-b64a2133f537"
+}

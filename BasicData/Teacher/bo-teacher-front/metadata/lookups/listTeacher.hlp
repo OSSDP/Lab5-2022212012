@@ -1,0 +1,261 @@
+{
+  "Header" : {
+    "Code" : "listTeacher",
+    "Type" : "HelpMetadata",
+    "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Front",
+    "CertId" : null,
+    "Name" : "展示教师列表",
+    "FileName" : "listTeacher.hlp",
+    "BizobjectID" : "7214725a-58db-e484-599b-52594682995b",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "5b79a1ed-a4ff-48b8-9481-e4263e82482b",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "6c844518-9209-4260-9949-917b752ae574",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Front",
+      "Code" : "listTeacher_hlp",
+      "Name" : "展示教师列表_ViewObject",
+      "Type" : "GSPViewModel",
+      "BizobjectID" : "7214725a-58db-e484-599b-52594682995b"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "1be12582-6c89-4977-9f80-45604bb071b2",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Front",
+      "Code" : "listTeacher.hlp",
+      "Name" : "listTeacher.hlp",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "7214725a-58db-e484-599b-52594682995b"
+    }
+  } ],
+  "Content" : {
+    "code" : "listTeacher",
+    "name" : "展示教师列表",
+    "version" : "0.0.2",
+    "id" : "5b79a1ed-a4ff-48b8-9481-e4263e82482b",
+    "title" : "展示教师列表",
+    "idField" : "id",
+    "idFieldName" : "主键",
+    "textField" : "name",
+    "textFieldName" : "姓名",
+    "valueField" : "id",
+    "valueFieldName" : "主键",
+    "displayType" : "List",
+    "description" : "",
+    "dataSource" : {
+      "columns" : [ {
+        "field" : "name",
+        "title" : "姓名",
+        "width" : 100,
+        "fieldPath" : "Name",
+        "fieldType" : "StringType",
+        "supportSearch" : true,
+        "align" : "left",
+        "formatter" : null,
+        "sortable" : false,
+        "order" : null,
+        "precision" : 0,
+        "hAlign" : "left"
+      } ],
+      "sourceType" : "BE",
+      "sourcePath" : "StudentSystem/BasicData/Teacher/bo-teacher-back/metadata/be/Teacher.be",
+      "sourceName" : "教师",
+      "sourceId" : "fa9729e7-6c9f-4c0c-b3f8-67cdc3ab375c",
+      "uri" : "StudentSystem/BasicData/Teacher/bo-teacher-front/metadata/lookups/listTeacher_hlp.vo",
+      "vmCode" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Front.Vo.listTeacher_hlp",
+      "voSourceId" : "6c844518-9209-4260-9949-917b752ae574",
+      "conditions" : [ ],
+      "sorts" : [ ],
+      "pageInfo" : {
+        "pageList" : [ 10, 20, 30, 50 ],
+        "pageSize" : 20,
+        "pageIndex" : 0,
+        "enablePager" : true
+      },
+      "treeInfo" : {
+        "loadDataType" : "async",
+        "layerType" : "pathcode",
+        "dataField" : "",
+        "pathField" : "path",
+        "layerField" : "layer",
+        "isDetailField" : "isDetail",
+        "onlySelectLeaf" : false,
+        "parentField" : "parentElement",
+        "treeDataIsInit" : false
+      }
+    },
+    "navigation" : null,
+    "languages" : null,
+    "schema" : {
+      "main" : {
+        "eapiId" : null,
+        "eapiCode" : null,
+        "eapiName" : null,
+        "eapiNameSpace" : null,
+        "voPath" : null,
+        "voNameSpace" : null,
+        "id" : "6c844518-9209-4260-9949-917b752ae574",
+        "variables" : [ ],
+        "sourceUri" : null,
+        "entities" : [ {
+          "id" : "a8c31835-0a8a-44ea-9e6c-ddfd09429cdc",
+          "type" : {
+            "$type" : "EntityType",
+            "fields" : [ {
+              "$type" : "SimpleField",
+              "path" : "ID",
+              "bindingField" : "id",
+              "bindingPath" : "id",
+              "id" : "fc869bc1-d860-4dbc-9d9a-1e5e12edfc3f_ID",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "originalId" : "fc869bc1-d860-4dbc-9d9a-1e5e12edfc3f",
+              "label" : "id",
+              "code" : "ID",
+              "name" : "主键",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "path" : "Version",
+              "bindingField" : "version",
+              "bindingPath" : "version",
+              "id" : "69075651-ad10-4295-92bd-454393932437_Version",
+              "type" : {
+                "$type" : "DateTimeType"
+              },
+              "originalId" : "69075651-ad10-4295-92bd-454393932437",
+              "label" : "version",
+              "code" : "Version",
+              "name" : "版本",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "path" : "TID",
+              "bindingField" : "tid",
+              "bindingPath" : "tid",
+              "id" : "2c8158d2-db3a-4aca-937c-d7b588c67a5a_TID",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "originalId" : "2c8158d2-db3a-4aca-937c-d7b588c67a5a",
+              "label" : "tid",
+              "code" : "TID",
+              "name" : "工号",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "path" : "Name",
+              "bindingField" : "name",
+              "bindingPath" : "name",
+              "id" : "bda42183-e780-4d33-855c-64855ee3c57c_Name",
+              "type" : {
+                "$type" : "StringType"
+              },
+              "originalId" : "bda42183-e780-4d33-855c-64855ee3c57c",
+              "label" : "name",
+              "code" : "Name",
+              "name" : "姓名",
+              "parentPath" : ""
+            }, {
+              "$type" : "SimpleField",
+              "path" : "Gender",
+              "bindingField" : "gender",
+              "bindingPath" : "gender",
+              "id" : "b90a7547-b884-4a1d-ab44-9ef1f2074e95_Gender",
+              "type" : {
+                "$type" : "EnumType",
+                "valueType" : {
+                  "$type" : "StringType",
+                  "displayName" : "字符串",
+                  "length" : 36,
+                  "name" : "String"
+                },
+                "enumValues" : [ {
+                  "disabled" : false,
+                  "name" : "男",
+                  "value" : "man"
+                }, {
+                  "disabled" : false,
+                  "name" : "女",
+                  "value" : "woman"
+                } ]
+              },
+              "originalId" : "b90a7547-b884-4a1d-ab44-9ef1f2074e95",
+              "label" : "gender",
+              "code" : "Gender",
+              "name" : "性别",
+              "parentPath" : ""
+            }, {
+              "$type" : "ComplexField",
+              "path" : "Tel",
+              "bindingField" : "tel",
+              "bindingPath" : "tel",
+              "id" : "cf64b7ee-2156-42f5-a569-091f28e46789_Tel",
+              "type" : {
+                "$type" : "ObjectType",
+                "fields" : [ {
+                  "$type" : "SimpleField",
+                  "readonly" : false,
+                  "editor" : {
+                    "$type" : "TextBox"
+                  },
+                  "defaultValue" : "",
+                  "multiLanguage" : false,
+                  "require" : false,
+                  "path" : "Tel.PhoneNumber",
+                  "bindingField" : "tel_PhoneNumber",
+                  "bindingPath" : "tel.phoneNumber",
+                  "id" : "cf64b7ee-88d1-4769-bb7a-5490d92893fa_Tel.PhoneNumber",
+                  "type" : {
+                    "$type" : "StringType",
+                    "displayName" : "字符串",
+                    "length" : 36,
+                    "name" : "String"
+                  },
+                  "originalId" : "b0c5529f-88d1-4769-bb7a-5490d92893fa",
+                  "label" : "phoneNumber",
+                  "code" : "PhoneNumber",
+                  "name" : "手机电话号码",
+                  "parentPath" : "tel"
+                } ]
+              },
+              "originalId" : "cf64b7ee-2156-42f5-a569-091f28e46789",
+              "label" : "tel",
+              "code" : "Tel",
+              "name" : "联系方式",
+              "parentPath" : ""
+            } ],
+            "primary" : "id",
+            "entities" : [ ],
+            "displayName" : "教师",
+            "name" : "Teacher"
+          },
+          "label" : "teachers",
+          "code" : "Teacher",
+          "name" : "教师"
+        } ],
+        "extendProperties" : {
+          "enableStdTimeFormat" : true
+        },
+        "sourceType" : "vo",
+        "code" : "listTeacher_hlp",
+        "name" : "展示教师列表_ViewObject"
+      }
+    },
+    "initDataSource" : true,
+    "createTime" : "2024-11-09 22:48:08"
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "StudentSystem/BasicData/Teacher/bo-teacher-front/metadata/lookups",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

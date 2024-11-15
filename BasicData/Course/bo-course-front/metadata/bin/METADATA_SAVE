@@ -1,0 +1,16 @@
+#Last modified on: Mon Nov 11 01:28:10 GMT+08:00 2024
+#Mon Nov 11 01:28:10 GMT+08:00 2024
+metadata/components/CourseDetail_frm.vo.res=b55d13d17e59df972926bd4127227d13f7e06c2c
+metadata/eapi/CourseDetail_frm.eapi=4edeb7573bf69a3b28ab89cd83bf954697270fca
+metadata/components/CourseList_frm.vo.res=52dd18c2a68a77b02255944a29e733da4aa0160b
+metadata/route/predefinePageflow.pf=3cc36426886984347841a647bac6f3df5453a8a3
+metadata/components/CourseList.frm.res=42c0f6386e8d454e78e2ae4cd6ad2066c6c7d380
+metadata/components=346354cff97f1b46b28eebb1ada84c49721a2dd5
+metadata/components/CourseList.frm=895f0e3ae1a7a704c0c0c084393be47e814e9bdd
+metadata/components/CourseList_frm.vo=f8a1003fd52f972107f8a849e52b9fc465516cea
+metadata/route=2c4583b136fa30247c82c009b1383e0a64cf41a4
+metadata/components/CourseDetail_frm.vo=f45f97e4549f470a530d5adf0d5a65b6c79bd2bf
+metadata/components/CourseDetail.frm.res=5d4407cd15fd47238837a12e7f478a848efc1124
+metadata/eapi=97cd4887c7ebe02abcb4b9e6abbc80c2b2f69044
+metadata/eapi/CourseList_frm.eapi=011ea35d951e30c1a9c95e1c030488538f70ee65
+metadata/components/CourseDetail.frm=c32af6547f6eb176be99cc1c2a83c86df275404f

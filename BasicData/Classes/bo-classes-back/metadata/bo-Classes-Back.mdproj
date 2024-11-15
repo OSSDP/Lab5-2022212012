@@ -1,0 +1,46 @@
+{
+  "NameSpace" : "Inspur.GS.StudentSystem.BasicData.Classes.Classes.Back",
+  "Name" : "bo-Classes-Back",
+  "ProjectFileName" : "bo-Classes-Back.mdproj",
+  "ProjectPath" : "StudentSystem/BasicData/Classes/bo-classes-back/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Classes.Classes.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Student.Student.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "ProjectRefs" : [ {
+    "ProjectPath" : "../../../../StudentSystem/BasicData/Student/bo-student-back",
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Student.Student.Back"
+  } ],
+  "ExternalRefs" : null,
+  "MdpkgRefs" : [ {
+    "Name" : "Inspur.GS.StudentSystem.BasicData.Teacher.Teacher.Back",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  } ],
+  "MavenPackageRefs" : [ {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "studentsystem-basicdata-student-student-back-api",
+    "Version" : "m0.1.0-SNAPSHOT",
+    "MetadataPackageName" : "Inspur.GS.StudentSystem.BasicData.Student.Student.Back"
+  } ],
+  "CsprojAssemblyName" : "Inspur.GS.StudentSystem.BasicData.Classes.Classes.Back",
+  "ID" : "890f6f08-2920-4a0e-8cb1-5f19636ffe88"
+}

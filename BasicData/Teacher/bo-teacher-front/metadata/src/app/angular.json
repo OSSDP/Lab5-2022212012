@@ -1,0 +1,129 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "bo-teacher-front": {
+      "root": "projects/bo-teacher-front/",
+      "sourceRoot": "projects/bo-teacher-front/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "targets": {
+        "build": {
+          "builder": "@farris/farris-rollup:build",
+          "options": {
+            "format": "system",
+            "outputPath": "dist-rollup/bo-teacher-front",
+            "ngcOut": "out-tsc/app/projects/bo-teacher-front",
+            "excludeNgFactory": true,
+            "index": "projects/bo-teacher-front/src/index.rollup.html",
+            "importmap": "/platform/runtime/common/web/runtime.common.manifest.json?v=1731259265976",
+            "tsConfig": "projects/bo-teacher-front/tsconfig.app.json",
+            "entry": {
+              "main": {
+                "entry": "src/main.js",
+                "sourceMaps": false
+              },
+              "teacherdetail": {
+                "entry": "src/app/teacherdetail/teacherdetail.module.ngfactory.js",
+                "sourceMaps": false,
+                "output": "teacherdetail"
+              },
+              "teacherlist": {
+                "entry": "src/app/teacherlist/teacherlist.module.ngfactory.js",
+                "sourceMaps": false,
+                "output": "teacherlist"
+              }
+            },
+            "uglify": false,
+            "hash": false,
+            "libs": {},
+            "serve": false,
+            "visualize": false,
+            "libsPath": "D:/inBuilder/StudentSystem1/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+            "linkedNodeModules": "D:/inBuilder/StudentSystem1/node_modules",
+            "assets": [],
+            "i18n": {
+              "projects/bo-teacher-front/src/app/teacherdetail/i18n": "dist-rollup/bo-teacher-front/teacherdetail/i18n",
+              "projects/bo-teacher-front/src/app/teacherdetail/expressions": "dist-rollup/bo-teacher-front/teacherdetail/expressions",
+              "projects/bo-teacher-front/src/app/teacherdetail/metadata": "dist-rollup/bo-teacher-front/teacherdetail",
+              "projects/bo-teacher-front/src/app/teacherdetail/services/dist-rollup": "dist-rollup/bo-teacher-front/teacherdetail/services",
+              "projects/bo-teacher-front/src/app/teacherlist/i18n": "dist-rollup/bo-teacher-front/teacherlist/i18n",
+              "projects/bo-teacher-front/src/app/teacherlist/expressions": "dist-rollup/bo-teacher-front/teacherlist/expressions",
+              "projects/bo-teacher-front/src/app/teacherlist/metadata": "dist-rollup/bo-teacher-front/teacherlist",
+              "projects/bo-teacher-front/src/app/teacherlist/services/dist-rollup": "dist-rollup/bo-teacher-front/teacherlist/services"
+            }
+          },
+          "configurations": {
+            "production": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json?v=1731259265976",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            },
+            "ci": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json",
+              "libsPath": "请手工修改,参考示例：/builds/webadp/front-project-ci/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+              "linkedNodeModules": "请手工修改，参考示例：/builds/webadp/front-project-ci/node_modules",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "bo-teacher-front:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "bo-teacher-front:build:production"
+            },
+            "ci": {
+              "importmap": "/platform/runtime/common/web/runtime.common.manifest.json",
+              "libsPath": "请手工修改,参考示例：/builds/webadp/front-project-ci/node_modules/@farris/farris-rollup/src/build/libsWithNgFactory.json",
+              "linkedNodeModules": "请手工修改，参考示例：/builds/webadp/front-project-ci/node_modules",
+              "optimization": false,
+              "buildOptimizer": false,
+              "outputHashing": "none",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": true,
+              "showCircularDependencies": false,
+              "aot": true,
+              "extractLicenses": false,
+              "statsJson": false,
+              "progress": false,
+              "vendorChunk": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "bo-teacher-front"
+}
